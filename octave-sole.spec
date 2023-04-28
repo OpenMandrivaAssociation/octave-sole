@@ -3,7 +3,7 @@
 Summary:	A package for transient and steady state simulation of organic solar cells
 Name:		octave-sole
 Version:	0.1.1
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Sciences/Mathematics
 #Url:		https://packages.octave.org/sole/
@@ -43,7 +43,7 @@ cells.
 %octave_pkg_install
 
 %check
-#octave_pkg_check
+%octave_pkg_check
 
 %post
 %octave_cmd pkg rebuild
